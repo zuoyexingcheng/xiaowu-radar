@@ -19,3 +19,5 @@ jobs:
     steps:
       - name: Say hello
         run: echo "GitHub Actions runner is working"
+      - name: Show trigger
+        run: echo "Smoke test triggered by workflow file change"
