@@ -3,6 +3,12 @@ name: Actions Smoke Test
 on:
   workflow_dispatch:
 
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/workflows/actions-smoke-test.yml"
+
 permissions:
   contents: read
 
